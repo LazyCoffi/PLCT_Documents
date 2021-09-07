@@ -1,20 +1,18 @@
 # 构建情况汇总
 
-该文档用于记录已进行的构建情况记录
+该文档用于记录我已进行的构建情况记录
 
 ## 构建成功
 ### libipt
 - 原构建情况：excluded
 - 原构建失败原因：Exclusive arch不包括riscv64
 - 解决方案：添加riscv64支持
-- 使用osc构建
 - 已提交PR
 
 ### openblas
 - 原构建情况：failed
 - 原构建失败原因：spec文件未添加构建目标riscv64
 - 解决方案：判断当环境为riscv64时，设置构建目标为riscv general
-- 使用rpmbuild本地构建
 - 已提交PR
 
 ## 构建失败（failed）
