@@ -74,7 +74,7 @@
 - 构建失败原因：Exclusive arch缺少riscv64
 - 操作流程：添加riscv64后构建失败
 - 错误： #error "No support for this architecture (yet)"
-- 错误原因：包暂时不支持该系统加购
+- 错误原因：包暂时不支持该系统架构
 - [错误日志](https://build.openeuler.org/package/live_build_log/home:ChengZou:branches:openEuler:Mainline:RISC-V/luajit/standard_riscv64/riscv64)
 
 ### lxc
